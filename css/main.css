@@ -45,26 +45,25 @@ table {
 
 /* CSS Stylesheet Starts Here!*/
 
-
-html, body{
-	min-height:100%;
-}
 body {
-	background-image:url(../img/fern1.jpg);
-	background-repeat:no-repeat;
-	background-size:cover;
-}
+	background-image:url(../img/fern.jpg);
+    background-repeat:no-repeat;
+    -webkit-background-size:cover;
+    -moz-background-size:cover;
+    -o-background-size:cover;
+    background-size:cover;
+    background-position:center;
+} 
 #wrapper {
 	background-color:white;
 	height:100%;
-	width:30em;
+	width:35em;
 	opacity:.8;
 	border-radius:.25em;
     text-align: center;
-    min-width:10em;
-    margin-left: 5em;
-    margin-top: 5em;
-    margin-bottom: 5em;
+    min-width:18em;
+    margin: 5%;
+    max-height: 100%;
 }
 #top-header {
 	font-family: Raleway, sans-serif;
@@ -79,12 +78,12 @@ body {
     font-size:1.2em;
     font-style: italic;
 }
-#seperator-line {
+.seperator-line {
     width: 20em;
-    height: .15em;
+    height: .10em;
     background-color: black;
     margin: 1em auto;
-    margin-top: 2em
+    padding-top: .007em;
 }
 .nav {
     font-family: Raleway, sans-serif;
@@ -97,13 +96,7 @@ body {
 #contact{
     margin-left: 1.5em;
 }
-#seperator-line2 {
-    width: 20em;
-    height: .15em;
-    background-color: black;
-    margin: 1em auto;
-    margin-bottom: 2em
-}
+
 .about-text {
     font-family: Raleway, sans-serif; 
     font-size: 1.15em;
@@ -111,6 +104,7 @@ body {
     line-height: 1.1em;
     padding-left: .5em;
     padding-right:.5em;
+    margin-top: 2em;
 }
 #contact-heading {
     font-family: Raleway, sans-serif;
