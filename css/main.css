@@ -80,20 +80,20 @@ body {
 #sub-header {
     margin-top: 1em;
     font-family: Raleway, sans-serif;
-    font-size: 1.2em;
+    font-size: 1.8em;
     font-style: italic;
 }
-#seperator-line {
-    width: 15em;
-    height: .15em;
+.seperator-line {
+    width: 20em;
+    height: .12em;
     background-color: black;
     margin: 1em auto;
-    margin-top: 2em;
+    margin-top: 1em;
 }
 .nav {
     font-family: Raleway, sans-serif;
     text-decoration: none;
-    font-size: 1.5em;
+    font-size: 2em;
     color: black;
     font-weight: bolder;
 
@@ -101,20 +101,14 @@ body {
 #contact{
     margin-left: 1.5em;
 }
-#seperator-line2 {
-    width: 15em;
-    height: .15em;
-    background-color: black;
-    margin: 1em auto;
-    margin-bottom: 2em;
-}
-#about-text {
+
+.about-text {
     font-family: Raleway, sans-serif; 
     font-size: 1.2em;
     text-align: center;
     line-height: 1.5em;
-    padding-left: .5em;
-    padding-right: .5em;
+    padding-left: 1em;
+    padding-right: 1em;
 }
 #contact-heading {
     font-family: Raleway, sans-serif;
