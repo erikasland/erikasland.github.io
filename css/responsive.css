@@ -1,91 +1,113 @@
-@media screen and (min-width: 320px)  {
-	#wrapper{
-		width: 90%;
-		margin-right: 5%;		
-}
-	#top-header {
-		font-size: 10em;
-}
-	#sub-header {
-    	font-size: 3em;
-}
-    .seperator-line {
-    	width: 25em;
-    	height: .10em;
-}
-	.nav {
-    	font-size: 4em;
-}
-	.about-text {
-	    font-family: Raleway, sans-serif; 
-	    font-size: 3em;
-}
-	#contact-heading {
-	    font-size: 4em;
-}
-}
-
-@media screen and (min-width: 1024px)  {
+@media screen and (min-width: 0px) {
 	#wrapper{
 		width: 90%;
 		margin-right: 5%;		
 	}
-	.about-text {
-    font-family: Raleway, sans-serif; 
-    font-size: 2em;
-}
 	#top-header {
-		font-size: 8em;
-	}
-	.nav {
-    font-size: 2.2em;
-}
-}
-
-@media screen and (min-width: 1280px)  {
-
-	#wrapper{
-		width: 40em;		
-}
-	#top-header{
-		font-size: 7em;
+		font-size: 55px;
 	}
 	#sub-header {
-    	font-size: 1.5em;
-}
+    	font-size: 25px;
+    	padding-top: 10px
+	}
     .seperator-line {
-    	width: 15em;
-    	height: .10em;
-}
+    	width: 200px;
+    	height: 2px;
+	}
 	.nav {
-    	font-size: 2em;
-}
-	.about-text {
-	    font-family: Raleway, sans-serif; 
-	    font-size: 1.5em;
-}
-	#contact-heading {
-	    font-size: 4em;
-}
-}
-
-@media screen and (min-width: 2560px)  {
-	#wrapper{
-		width: 45em;		
+    	font-size: 30px;
+	}
+	#contact {
+		margin-left: 20px
 	}
 	.about-text {
-    	font-family: Raleway, sans-serif; 
-    	font-size: 2em;
+	    font-family: Raleway, sans-serif; 
+	    font-size: 25px;
+	    padding-left: 10px;
+	    padding-right: 10px;
+	}
+	#contact-heading {
+	    font-size: 40px;
+	}
 }
-	#top-header {
-		font-size: 8em;
-}
-	.nav {
-    font-size: 1.5em;
-}
-    .seperator-line {
-    width: 20em;
-    height: .10em;
 
+@media screen and (min-width: 450px) {
+	#wrapper {
+		width: 90%;
+		margin-right: 5%;		
+	}
+	#top-header {
+		font-size: 80px;
+	}
+	#sub-header {
+    	font-size: 25px;
+	}
+	.seperator-line {
+    	width: 240px;
+    	height: 2px;
+	}
+	.nav {
+    	font-size: 35px;
+	}
+	.about-text {
+	    font-family: Raleway, sans-serif; 
+	    font-size: 25px;
+	}
 }
+
+
+@media screen and (min-width: 875px) {
+	#wrapper{
+		width: 90%;
+		margin-right: 5%;		
+	}
+	#top-header {
+		font-size: 150px;
+	}
+	#sub-header {
+    	font-size: 30px;
+	}
+	.seperator-line {
+    	width: 240px;
+    	height: 2px;
+	}
+	.nav {
+    	font-size: 35px;
+	}
+	.about-text {
+	    font-family: Raleway, sans-serif; 
+	    font-size: 25px;
+	}
+}
+
+@media screen and (min-width: 1280px) {
+
+	#wrapper {
+		width: 750px;		
+	}
+	}
+	#top-header {
+		font-size: 140px;
+	}
+	#sub-header {
+    	font-size: 35px;
+	}
+    .seperator-line {
+    	width: 300px;
+    	height: 2px;
+	}
+	.nav {
+    	font-size: 45px;
+	}
+	.about-text {
+	    font-family: Raleway, sans-serif; 
+	    font-size: 25px;
+	}
+	#contact-heading {
+	    font-size: 50px;
+	}
+	.contact-button {
+    margin: 5px;
+    width: 70px;
+	}
 }
