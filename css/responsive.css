@@ -1,3 +1,5 @@
+/* Most smart phones (iPhone, Galaxy S, Sony Xperia, etc.) */
+
 @media screen and (min-width: 0px) {
 	#wrapper{
 		width: 90%;
@@ -22,7 +24,7 @@
 	}
 	.about-text {
 	    font-family: Raleway, sans-serif; 
-	    font-size: 25px;
+	    font-size: 20px;
 	    padding-left: 10px;
 	    padding-right: 10px;
 	}
@@ -30,6 +32,8 @@
 	    font-size: 40px;
 	}
 }
+
+/* Ranging from a big smart phone to a small tablet. */
 
 @media screen and (min-width: 450px) {
 	#wrapper {
@@ -43,11 +47,14 @@
     	font-size: 25px;
 	}
 	.seperator-line {
-    	width: 240px;
+    	width: 280px;
     	height: 2px;
 	}
 	.nav {
     	font-size: 35px;
+	}
+	#contact{
+    margin-left: 70px;
 	}
 	.about-text {
 	    font-family: Raleway, sans-serif; 
@@ -55,6 +62,7 @@
 	}
 }
 
+/* Ranging from large smartphone to tablet (iPad) */
 
 @media screen and (min-width: 875px) {
 	#wrapper{
@@ -68,17 +76,22 @@
     	font-size: 30px;
 	}
 	.seperator-line {
-    	width: 240px;
+    	width: 280px;
     	height: 2px;
 	}
 	.nav {
     	font-size: 35px;
+	}
+	#contact{
+    margin-left: 70px;
 	}
 	.about-text {
 	    font-family: Raleway, sans-serif; 
 	    font-size: 25px;
 	}
 }
+
+/* Ranging from an average laptop to any size desktop */
 
 @media screen and (min-width: 1280px) {
 
@@ -92,11 +105,14 @@
     	font-size: 35px;
 	}
     .seperator-line {
-    	width: 300px;
+    	width: 350px;
     	height: 2px;
 	}
 	.nav {
     	font-size: 45px;
+	}
+	#contact{
+    margin-left: 70px;
 	}
 	.about-text {
 	    font-family: Raleway, sans-serif; 
