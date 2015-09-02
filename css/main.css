@@ -111,8 +111,20 @@ body {
 .drop-me-line {
     padding-bottom: 30px;
 }
+
+.link {
+    text-decoration: none;
+}
+
+#github {
+    border-radius: 7px;
+}
+
+#facebook {
+    border-radius: 7px;
+}
+
 .contact-button {
-    margin: 5px;
     width: 70px;
 }
 
