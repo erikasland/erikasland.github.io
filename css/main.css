@@ -115,3 +115,7 @@ body {
     margin: 5px;
     width: 70px;
 }
+
+.highlight {
+    opacity: .7
+}
