@@ -1,21 +1,147 @@
+<<<<<<< HEAD
 @media screen and (min-width: 320px){
-	#wrapper{
-		width: 90%;	
-		margin-right: 5%;	
-	}
+=======
+/* Most smart phones (iPhone, Galaxy S, Sony Xperia, etc.) */
 
+@media screen and (min-width: 0px) {
+>>>>>>> 21a4b490e7815f2f7bc0b5ad8cb2467e6a517819
+	#wrapper{
+  		width: 90%;
+  		margin-right: 5%;		
+	}
 	#top-header {
+<<<<<<< HEAD
 		font-family: Raleway, sans-serif;
 		font-size: 7em;
 		margin-bottom: -.2em;
 	    color: black;
 	    padding-top: .06em;
-
+=======
+		  font-size: 55px;
+	}
+	#sub-header {
+    	font-size: 25px;
+    	padding-top: 10px
+	}
+    .seperator-line {
+    	width: 200px;
+    	height: 2px;
+	}
+	.nav {
+    	font-size: 30px;
+	}
+	#contact {
+		  margin-left: 20px
+	}
+	.about-text {
+	    font-family: Raleway, sans-serif; 
+	    font-size: 20px;
+	    padding-left: 10px;
+	    padding-right: 10px;
+	}
+	#contact-heading {
+	    font-size: 40px;
 	}
 }
+>>>>>>> 21a4b490e7815f2f7bc0b5ad8cb2467e6a517819
+
+/* Ranging from a big smart phone to a small tablet. */
+
+@media screen and (min-width: 450px) {
+	#wrapper {
+  		width: 90%;
+  		margin-right: 5%;		
+	}
+	#top-header {
+		  font-size: 80px;
+	}
+	#sub-header {
+    	font-size: 25px;
+	}
+	.seperator-line {
+    	width: 280px;
+    	height: 2px;
+	}
+	.nav {
+    	font-size: 35px;
+	}
+	#contact{
+      margin-left: 70px;
+	}
+	.about-text {
+	    font-family: Raleway, sans-serif; 
+	    font-size: 25px;
+	}
+}
+<<<<<<< HEAD
 @media screen and (min-width: 800px), (min-width: 1920px)  {
 	#wrapper{
 		width: 35em;		
+=======
+
+/* Ranging from large smartphone to tablet (iPad) */
+
+@media screen and (min-width: 875px) {
+	#wrapper{
+		  width: 90%;
+		  margin-right: 5%;		
+	}
+	#top-header {
+		  font-size: 150px;
+	}
+	#sub-header {
+    	font-size: 30px;
+	}
+	.seperator-line {
+    	width: 280px;
+    	height: 2px;
+	}
+	.nav {
+    	font-size: 35px;
+	}
+	#contact{
+      margin-left: 70px;
+	}
+	.about-text {
+	    font-family: Raleway, sans-serif; 
+	    font-size: 25px;
+	}
+}
+
+/* Ranging from an average laptop to any size desktop */
+
+@media screen and (min-width: 1280px) {
+
+	#wrapper {
+		  width: 750px;		
+	}
+	#top-header {
+		  font-size: 140px;
+	}
+	#sub-header {
+    	font-size: 35px;
+	}
+    .seperator-line {
+    	width: 350px;
+    	height: 2px;
+	}
+	.nav {
+    	font-size: 45px;
+	}
+	#contact{
+      margin-left: 70px;
+	}
+	.about-text {
+	    font-family: Raleway, sans-serif; 
+	    font-size: 25px;
+	}
+	#contact-heading {
+	    font-size: 50px;
+	}
+	.contact-button {
+      margin: 5px;
+      width: 70px;
+>>>>>>> 21a4b490e7815f2f7bc0b5ad8cb2467e6a517819
 	}
 }
 @media screen and (min-width: 800px), (min-width: 1920px)  {

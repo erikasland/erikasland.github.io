@@ -43,14 +43,14 @@ table {
 }
 
 
-/* CSS Stylesheet Starts Here!*/
+/* Main CSS Stylesheet Starts Here!*/
 
 
 html, body {
 	min-height:100%;
 }
 body {
-	background-image: url(../img/fern.jpg);
+	background-image: url(../img/fern1.jpg);
     background-repeat:no-repeat;
     -webkit-background-size:cover;
     -moz-background-size:cover;
@@ -61,7 +61,7 @@ body {
 #wrapper {
 	background-color: white;
 	height: 100%;
-	width: 35em;
+	width: 750px;
 	opacity: .7;
 	border-radius: .25em;
     text-align: center;
@@ -71,58 +71,63 @@ body {
 }
 #top-header {
 	font-family: Raleway, sans-serif;
-	font-size: 6.5em;
-	margin-bottom: -.2em;
+	font-size: 250px;
+	margin-bottom: -30px;
     color: black;
-    padding-top: .06em;
+    padding-top: 10px;
 
 }
 #sub-header {
-    margin-top: 1em;
+    margin-top: 20px;
     font-family: Raleway, sans-serif;
-    font-size: 1.2em;
     font-style: italic;
 }
-#seperator-line {
-    width: 15em;
-    height: .15em;
+.seperator-line {
+    width: 250px;
     background-color: black;
-    margin: 1em auto;
-    margin-top: 2em;
+    margin: 15px auto;
 }
 .nav {
     font-family: Raleway, sans-serif;
     text-decoration: none;
-    font-size: 1.5em;
     color: black;
     font-weight: bolder;
-
 }
 #contact{
-    margin-left: 1.5em;
+    margin-left: 50px;
 }
-#seperator-line2 {
-    width: 15em;
-    height: .15em;
-    background-color: black;
-    margin: 1em auto;
-    margin-bottom: 2em;
-}
-#about-text {
+.about-text {
     font-family: Raleway, sans-serif; 
-    font-size: 1.2em;
     text-align: center;
-    line-height: 1.5em;
-    padding-left: .5em;
-    padding-right: .5em;
+    line-height: 40px;
+    padding-left: 30px;
+    padding-right:30px;
+    padding-bottom: 30px;
 }
 #contact-heading {
     font-family: Raleway, sans-serif;
-    font-size: 2em;
-    margin: 1em;
-    margin-top: 3em;
-    margin-bottom: .25em
+    margin-top: 250px;
 }
 .drop-me-line {
-    padding-bottom: 1em;
+    padding-bottom: 30px;
+}
+
+.link {
+    text-decoration: none;
+}
+
+#github {
+    border-radius: 7px;
+}
+
+#facebook {
+    border-radius: 7px;
+}
+
+.contact-button {
+    width: 70px;
+}
+
+.highlight {
+    opacity: .7
 }
