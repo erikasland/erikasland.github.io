@@ -1,23 +1,16 @@
-<<<<<<< HEAD
-@media screen and (min-width: 320px){
-=======
 /* Most smart phones (iPhone, Galaxy S, Sony Xperia, etc.) */
 
 @media screen and (min-width: 0px) {
->>>>>>> 21a4b490e7815f2f7bc0b5ad8cb2467e6a517819
 	#wrapper{
   		width: 90%;
   		margin-right: 5%;		
 	}
 	#top-header {
-<<<<<<< HEAD
 		font-family: Raleway, sans-serif;
-		font-size: 7em;
 		margin-bottom: -.2em;
 	    color: black;
 	    padding-top: .06em;
-=======
-		  font-size: 55px;
+		font-size: 55px;
 	}
 	#sub-header {
     	font-size: 25px;
@@ -31,7 +24,7 @@
     	font-size: 30px;
 	}
 	#contact {
-		  margin-left: 20px
+		margin-left: 20px
 	}
 	.about-text {
 	    font-family: Raleway, sans-serif; 
@@ -43,7 +36,6 @@
 	    font-size: 40px;
 	}
 }
->>>>>>> 21a4b490e7815f2f7bc0b5ad8cb2467e6a517819
 
 /* Ranging from a big smart phone to a small tablet. */
 
@@ -53,7 +45,7 @@
   		margin-right: 5%;		
 	}
 	#top-header {
-		  font-size: 80px;
+		font-size: 80px;
 	}
 	#sub-header {
     	font-size: 25px;
@@ -66,28 +58,23 @@
     	font-size: 35px;
 	}
 	#contact{
-      margin-left: 70px;
+      	margin-left: 70px;
 	}
 	.about-text {
 	    font-family: Raleway, sans-serif; 
 	    font-size: 25px;
 	}
 }
-<<<<<<< HEAD
-@media screen and (min-width: 800px), (min-width: 1920px)  {
-	#wrapper{
-		width: 35em;		
-=======
 
 /* Ranging from large smartphone to tablet (iPad) */
 
 @media screen and (min-width: 875px) {
 	#wrapper{
-		  width: 90%;
-		  margin-right: 5%;		
+		width: 90%;
+		margin-right: 5%;		
 	}
 	#top-header {
-		  font-size: 150px;
+		font-size: 150px;
 	}
 	#sub-header {
     	font-size: 30px;
@@ -97,10 +84,10 @@
     	height: 2px;
 	}
 	.nav {
-    	font-size: 35px;
+        font-size: 35px;
 	}
 	#contact{
-      margin-left: 70px;
+        margin-left: 70px;
 	}
 	.about-text {
 	    font-family: Raleway, sans-serif; 
@@ -113,10 +100,10 @@
 @media screen and (min-width: 1280px) {
 
 	#wrapper {
-		  width: 750px;		
+		width: 750px;		
 	}
 	#top-header {
-		  font-size: 140px;
+		font-size: 140px;
 	}
 	#sub-header {
     	font-size: 35px;
@@ -129,7 +116,7 @@
     	font-size: 45px;
 	}
 	#contact{
-      margin-left: 70px;
+        margin-left: 70px;
 	}
 	.about-text {
 	    font-family: Raleway, sans-serif; 
@@ -139,34 +126,9 @@
 	    font-size: 50px;
 	}
 	.contact-button {
-      margin: 5px;
-      width: 70px;
->>>>>>> 21a4b490e7815f2f7bc0b5ad8cb2467e6a517819
+        margin: 5px;
+        width: 70px;
 	}
-}
-@media screen and (min-width: 800px), (min-width: 1920px)  {
-	
-}
-@media screen and (min-width: 800px), (min-width: 1920px)  {
-	
-}
-@media screen and (min-width: 800px), (min-width: 1920px)  {
-	
-}
-@media screen and (min-width: 800px), (min-width: 1920px)  {
-	
-}
-@media screen and (min-width: 800px), (min-width: 1920px)  {
-	
-}
-@media screen and (min-width: 800px), (min-width: 1920px)  {
-	
-}
-@media screen and (min-width: 800px), (min-width: 1920px)  {
-	
-}
-@media screen and (min-width: 800px), (min-width: 1920px)  {
-	
 }
 
 
